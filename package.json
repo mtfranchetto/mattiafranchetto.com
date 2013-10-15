@@ -1,0 +1,26 @@
+{
+  "name": "mtfranchetto",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+      "node": "0.10.x"
+  },
+  "subdomain": "mtfranchetto",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.0",
+    "jade": "*",
+    "stylus": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
