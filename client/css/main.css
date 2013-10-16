@@ -164,6 +164,10 @@ section.injected-content.contact {
     right: 0;
 }
 
+section.injected-content .hero {
+    color: #3b98db;
+}
+
 .abstract {
     margin: 2em 0;
     font-size: 1.4em;
