@@ -67,7 +67,31 @@ footer li {
     margin-top: 2px;
 }
 
-.hero {
-    font-size: 3.3em;
+.work li {
+    width: 120px;
+    height: 120px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
+.abstract {
+    font-size: 1.2em;
+}
+
+.hero {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2.2em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+.avatar {
+    width: 156px;
+    height: 156px;
+}

@@ -229,14 +229,6 @@ a:active  {
     overflow: hidden;
 }
 
-.work li {
-    padding: 0.5%;
-}
-
-.work li {
-    display: inline-block;
-}
-
 .contact li:nth-child(1) {
     background-color: #e45135; //gmail
 }
@@ -261,6 +253,16 @@ a:active  {
     background-color: #000000; //github
 }
 
+.work li {
+    padding: 0.5%;
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    width: 200px;
+    overflow: hidden;
+}
+
 .contact li span, .work li span {
     font-weight: 300;
     margin: 0 0 0.4em 0;
@@ -272,6 +274,7 @@ a:active  {
 .work li img {
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .contact li a, .work li a {
@@ -287,11 +290,6 @@ a:active  {
 }
 
 .work li {
-    margin-right: 3%;
-    margin-left: 3%;
-    margin-bottom: 2%;
-    width: 200px;
-    overflow: hidden;
 }
 
 .work li a {
