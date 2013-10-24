@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(../img/bg.jpg) repeat-x 0 0;
+    background: #3b98db url(../img/bg.jpg) repeat-x 0 0;
     background-size: cover;
 }
 

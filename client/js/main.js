@@ -28,7 +28,10 @@ $(document).ready(function () {
     app.listeners.init();
     
     /mobi/i.test(navigator.userAgent) && setTimeout(function () {
-      if (!pageYOffset) window.scrollTo(0, 1);
+        if (!pageYOffset) {
+            window.scrollTo(0, 1);
+            app.ui.fitWindow().fitParentContent();
+        }
     }, 1000);
     
 });
