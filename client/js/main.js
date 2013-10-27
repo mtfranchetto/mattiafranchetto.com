@@ -27,11 +27,6 @@ $(document).ready(function () {
     app.ui.fitWindow().fitParentContent();
     app.listeners.init();
     
-    /mobi/i.test(navigator.userAgent) && setTimeout(function () {
-        if (!pageYOffset) {
-            window.scrollTo(0, 1);
-            app.ui.fitWindow().fitParentContent();
-        }
-    }, 1000);
+    app.ui.hideNavBar();
     
 });

@@ -140,4 +140,13 @@ app.ui = new function () {
         
         return this;
     };
+    
+    this.hideNavBar = function () {
+        /mobi/i.test(navigator.userAgent) && setTimeout(function () {
+            if (!pageYOffset) {
+                window.scrollTo(0, 1);
+                app.ui.fitWindow().fitParentContent();
+            }
+        }, 500);
+    }
 };

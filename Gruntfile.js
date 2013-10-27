@@ -15,6 +15,7 @@ module.exports = function(grunt) {
             BUILD_DIR + 'favicon.ico',
             BUILD_DIR + 'humans.txt',
             BUILD_DIR + 'robots.txt',
+            BUILD_DIR + 'sitemap.xml'
         ],
         uglify: {
           options: {
@@ -50,7 +51,8 @@ module.exports = function(grunt) {
               { expand: true, cwd: SOURCE_DIR, src: ['404.html'], dest: BUILD_DIR},
               { expand: true, cwd: SOURCE_DIR, src: ['apple-touch-icon.png'], dest: BUILD_DIR},
               { expand: true, cwd: SOURCE_DIR, src: ['humans.txt'], dest: BUILD_DIR},
-              { expand: true, cwd: SOURCE_DIR, src: ['robots.txt'], dest: BUILD_DIR}
+              { expand: true, cwd: SOURCE_DIR, src: ['robots.txt'], dest: BUILD_DIR},
+              { expand: true, cwd: SOURCE_DIR, src: ['sitemap.xml'], dest: BUILD_DIR}
             ]
           }
         }

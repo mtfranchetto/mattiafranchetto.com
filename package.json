@@ -1,11 +1,15 @@
 {
-  "name": "mtfranchetto",
-  "version": "1.0.0-7",
+  "name": "mattiafranchetto",
+  "version": "1.0.1-4",
   "private": true,
   "engines": {
     "node": "0.10.x"
   },
-  "subdomain": "mtfranchetto",
+  "subdomain": "mattiafranchetto",
+  "domains": [
+    "mattiafranchetto.com",
+    "www.mattiafranchetto.com"
+  ],
   "scripts": {
     "start": "node app.js"
   },

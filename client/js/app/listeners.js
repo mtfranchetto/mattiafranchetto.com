@@ -47,7 +47,10 @@ app.listeners = new function () {
         app.ui
             .collapseParentContent()
             .emptyParentContent()
-            .fitParentContent();
+            .fitParentContent()
+            .hideNavBar();
+            
+        ga('send','pageview', 'home');
     }
     
     /*
@@ -75,6 +78,8 @@ app.listeners = new function () {
             default:
                 break;
         }
+        
+        ga('send','pageview', tag);
         
     };
     
