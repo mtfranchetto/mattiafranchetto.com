@@ -52,7 +52,8 @@ module.exports = function(grunt) {
               { expand: true, cwd: SOURCE_DIR, src: ['apple-touch-icon.png'], dest: BUILD_DIR},
               { expand: true, cwd: SOURCE_DIR, src: ['humans.txt'], dest: BUILD_DIR},
               { expand: true, cwd: SOURCE_DIR, src: ['robots.txt'], dest: BUILD_DIR},
-              { expand: true, cwd: SOURCE_DIR, src: ['sitemap.xml'], dest: BUILD_DIR}
+              { expand: true, cwd: SOURCE_DIR, src: ['sitemap.xml'], dest: BUILD_DIR},
+              { expand: true, cwd: SOURCE_DIR, src: ['cv.pdf'], dest: BUILD_DIR}
             ]
           }
         }

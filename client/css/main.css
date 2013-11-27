@@ -306,22 +306,25 @@ a:active  {
 }
 
 .work ul:nth-of-type(1) li:nth-child(1) {
+    background-color: #da2a7f; //pr0gramm
+}
+.work ul:nth-of-type(1) li:nth-child(2) {
     background-color: #00ace3; //goldhunt
 }
 
-.work ul:nth-of-type(1) li:nth-child(2) {
+.work ul:nth-of-type(1) li:nth-child(3) {
     background-color: #c51a00; //superga
 }
 
-.work ul:nth-of-type(1) li:nth-child(3) {
+.work ul:nth-of-type(1) li:nth-child(4) {
     background-color: #321d87; //kway
 }
 
-.work ul:nth-of-type(1) li:nth-child(4) {
+.work ul:nth-of-type(1) li:nth-child(5) {
     background-color: #005e29; //metro
 }
 
-.work ul:nth-of-type(1) li:nth-child(5) {
+.work ul:nth-of-type(1) li:nth-child(6) {
     background-color: #ac1f19; //cucchiaio
 }
 
