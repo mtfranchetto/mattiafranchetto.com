@@ -40,7 +40,7 @@ app.listeners = new function () {
     
     var homeTap = function () {
         
-        location.hash = '';
+        //location.hash = '';
         
         app.request.cancellAll();
         
@@ -73,7 +73,7 @@ app.listeners = new function () {
                 loadSection(tag);
                 break;
             case app.config.TAG_BLOG:
-                window.open(app.config.URL_BLOG);
+                //window.open(app.config.URL_BLOG);
                 break;
             default:
                 break;
@@ -113,7 +113,7 @@ app.listeners = new function () {
                  .expandParentContent()
                  .hideLoadIndicator(); 
                  
-            location.hash = '!section=' + tag;
+            //location.hash = '!section=' + tag;
         };
         
         if (cacheData) {

@@ -4,7 +4,7 @@ header {
     color: #55606a;
 }
 
-header span {
+header a {
     line-height: 60px;
     font-size: 2em;
     font-weight: 300;
