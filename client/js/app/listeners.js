@@ -15,6 +15,14 @@ app.listeners = new function () {
      */
     
     this.init = function () {
+
+    	$(window).scroll(function() {
+		    if (document.body.scrollTop > 50) {
+		        $('header').height(60);
+		    } else {
+		    	$('header').height(110);
+		    }
+		});
         
         return this;
     };

@@ -5,12 +5,10 @@ header {
 }
 
 header a {
-    line-height: 60px;
     font-size: 2em;
     font-weight: 300;
     margin-left: 14%;
     cursor: pointer;
-    white-space: nowrap;
 }
 
 .work li {

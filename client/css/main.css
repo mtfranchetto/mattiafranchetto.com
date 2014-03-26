@@ -26,15 +26,21 @@ header {
     top: 0;
     left: 0;
     z-index: 2;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+
 }
 
 header a {
-    line-height: 110px;
     font-size: 2.5em;
     font-weight: 300;
     margin-left: 14%;
     cursor: pointer;
     color: #55606a !important;
+    white-space: nowrap;
 }
 
 section {
@@ -117,36 +123,33 @@ a:active  {
 
 .contact li, .work li {
     padding: 1%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     overflow: hidden;
+    border-bottom: 1px solid #444444;
 }
 
-.contact li:nth-child(1) {
-    background-color: #e45135; //gmail
+.contact li:nth-child(1) span {
+    color: #e45135; //gmail
 }
 
-.contact li:nth-child(2) {
-    background-color: #335a98; //facebook
+.contact li:nth-child(2) span {
+    color: #335a98; //facebook
 }
 
-.contact li:nth-child(3) {
-    background-color: #00b2e9; //twitter
+.contact li:nth-child(3) span {
+    color: #00b2e9; //twitter
 }
 
-.contact li:nth-child(4) {
-    background-color: #0086bd; //linkedin
+.contact li:nth-child(4) span {
+    color: #0086bd; //linkedin
 }
 
-.contact li:nth-child(5) {
-    background-color: #345876; //tumblr
+.contact li:nth-child(5) span {
+    color: #000000; //github
 }
 
-.contact li:nth-child(6) {
-    background-color: #000000; //github
-}
-
-.contact li:nth-child(7) {
-    background-color: #00aaf5; //skype
+.contact li:nth-child(6) span {
+    color: #00aaf5; //skype
 }
 
 
