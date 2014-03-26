@@ -24,7 +24,6 @@
 
 $(document).ready(function () {
    
-    app.ui.fitWindow().fitParentContent();
     app.listeners.init();
     
     app.ui.hideNavBar();
