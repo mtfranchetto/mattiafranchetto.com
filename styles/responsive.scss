@@ -1,43 +1,46 @@
-header {
+@media screen and (max-width: 68em) {
+
+  header {
     height: 60px;
-}
+  }
 
-#content-parent {
+  #content-parent {
     padding-top: 60px;
-}
+  }
 
-header a {
+  header a {
     font-size: 2em;
     font-weight: 300;
     margin-left: 14%;
     cursor: pointer;
-}
+  }
 
-.work li {
+  .work li {
     width: 120px;
     height: 120px;
     margin-right: 2%;
     margin-left: 2%;
     margin-bottom: 2%;
-}
+  }
 
-.abstract {
+  .abstract {
     font-size: 1.2em;
-}
+  }
 
-.hero {
+  .hero {
     font-size: 2.5em;
-}
+  }
 
-h3 {
+  h3 {
     font-size: 2.2em;
-}
+  }
 
-h4 {
+  h4 {
     font-size: 1.8em;
-}
+  }
 
-.home .avatar {
+  .home .avatar {
     width: 156px;
     height: 156px;
+  }
 }

@@ -1,4 +1,18 @@
 {
-    "name": "mattiafranchetto.com",
-    "version": "1.1.2"
+  "name": "mattiafranchetto.com",
+  "version": "1.1.2",
+  "dependencies": {
+    "browserify": "^11.2.0",
+    "browserify-shim": "^3.8.10",
+    "jquery": "^2.1.4",
+    "normalize.css": "^3.0.3"
+  },
+  "browserify": {
+    "transforms": [
+      "browserify-shim"
+    ]
+  },
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.js"
+  }
 }
