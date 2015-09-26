@@ -1,30 +1,18 @@
 {
-  "name": "mattiafranchetto",
-  "version": "1.1.2",
-  "private": true,
-  "engines": {
-    "node": "0.10.x"
-  },
-  "subdomain": "mattiafranchetto",
-  "domains": [
-    "mattiafranchetto.com",
-    "www.mattiafranchetto.com"
-  ],
-  "scripts": {
-    "start": "node app.js"
-  },
+  "name": "mattiafranchetto.com",
+  "version": "2.0.0",
   "dependencies": {
-    "express": "3.4.0",
-    "jade": "*",
-    "stylus": "*"
+    "browserify": "^11.2.0",
+    "browserify-shim": "^3.8.10",
+    "jquery": "^2.1.4",
+    "normalize.css": "^3.0.3"
   },
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-cssmin": "*",
-    "grunt-contrib-copy": "*",
-    "grunt-contrib-clean": "~0.5.0"
+  "browserify": {
+    "transforms": [
+      "browserify-shim"
+    ]
+  },
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.js"
   }
 }
