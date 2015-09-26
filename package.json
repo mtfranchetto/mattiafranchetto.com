@@ -1,6 +1,6 @@
 {
   "name": "mattiafranchetto.com",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "dependencies": {
     "browserify": "^11.2.0",
     "browserify-shim": "^3.8.10",
