@@ -1,3 +1,9 @@
 module.exports = {
-    module: false
+    module: false,
+    postBuild: [
+        {
+            "source": "./public/*",
+            "dest": ""
+        }
+    ]
 };
